@@ -110,6 +110,11 @@ body {
 .product-button:hover {
     background-color: #c0392b;
 }
+.product-button:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
 
 /* Pseudo-elements - Sale badge */
 .product-card::before {
@@ -212,8 +217,13 @@ body {
   }
   
   .product-button:hover {
-    background-color: #45a049;
+    background-color: #063508;
   }
+  .product-button:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
   
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */
@@ -249,4 +259,6 @@ body {
       .ul div {
         text-align: center; /* Align text to the center */
       }
+
+      
   }
